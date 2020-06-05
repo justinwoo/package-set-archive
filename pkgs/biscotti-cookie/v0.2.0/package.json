@@ -1,0 +1,8 @@
+{
+  "description": "purescript-biscotti-cookie",
+  "repository": "https://github.com/drewolson/purescript-biscotti-cookie",
+  "license": "MIT",
+  "devDependencies": {
+    "purescript-language-server": "^0.12.7"
+  }
+}

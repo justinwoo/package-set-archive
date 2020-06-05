@@ -1,0 +1,13 @@
+{
+    "name": "purescript-cheerio",
+    "set": "psc-0.13.6-20200404",
+    "source": "https://github.com/purescript/package-sets.git",
+    "depends":
+      [ "console"
+      , "effect"
+      , "functions"
+      , "prelude"
+      , "psci-support"
+      , "test-unit"
+      ]
+}

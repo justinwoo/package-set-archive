@@ -1,0 +1,36 @@
+{
+  "name": "format-nix",
+  "version": "1.0.0",
+  "description": "Formatter for Nix using tree-sitter-nix",
+  "main": "index.js",
+  "bin": {
+    "format-nix": "bin/index.js"
+  },
+  "scripts": {
+    "mkbin": "mkdir -p bin && spago bundle-app --to bin/output.js",
+    "ci": "npm i && spago install && spago test",
+    "test": "spago test"
+  },
+  "author": "Justin Woo",
+  "license": "MIT",
+  "dependencies": {
+    "tree-sitter": "^0.15.1",
+    "tree-sitter-nix": "github:cstrahan/tree-sitter-nix#791b5ff0e4f0da358cbb941788b78d436a2ca621"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinwoo/format-nix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justinwoo/format-nix/issues"
+  },
+  "homepage": "https://github.com/justinwoo/format-nix#readme",
+  "keywords": [
+    "Nix",
+    "tree-sitter-nix"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "purescript-freedom",
+  "license": "MIT",
+  "homepage": "https://github.com/purescript-freedom/purescript-freedom",
+  "authors": [
+    "Shinya Takahashi <s.takahashi313@gmail.com>"
+  ],
+  "description": "A practical type-safe UI library for PureScript",
+  "keywords": [
+    "purescript",
+    "virtual-dom",
+    "ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purescript-freedom/purescript-freedom"
+  },
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-web-html": "^2.0.0",
+    "purescript-simple-emitter": "^1.0.0",
+    "purescript-console": "^4.2.0",
+    "purescript-safely": "^4.0.0",
+    "purescript-foreign-object": "^2.0.1"
+  },
+  "devDependencies": {
+    "purescript-test-unit": "^15.0.0"
+  }
+}

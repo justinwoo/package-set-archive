@@ -1,0 +1,28 @@
+{
+  "name": "purescript-argonaut-generic",
+  "homepage": "https://github.com/purescript-contrib/purescript-argonaut-generic",
+  "description": "Encoding and decoding functions for generic datatypes",
+  "keywords": [
+    "purescript",
+    "json",
+    "argonaut",
+    "encode",
+    "decode",
+    "generic"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/purescript-contrib/purescript-argonaut-generic.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "purescript-argonaut-core": "^5.0.0",
+    "purescript-argonaut-codecs": "^6.0.2",
+    "purescript-generics-rep": "^6.1.1",
+    "purescript-record": "^2.0.0"
+  },
+  "devDependencies": {
+    "purescript-assert": "^4.1.0",
+    "purescript-console": "^4.2.0"
+  }
+}

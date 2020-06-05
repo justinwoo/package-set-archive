@@ -1,0 +1,20 @@
+{
+  "name": "purescript-uint-instances",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/athanclark/purescript-uint-instances.git"
+  },
+  "dependencies": {
+    "purescript-uint": "^5.1.0",
+    "purescript-unordered-collections": "^1.6.0",
+    "purescript-argonaut": "^6.0.0",
+    "purescript-quickcheck": "^6.1.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "purescript-selection-foldable",
+  "authors": [
+    "Jamie Yung <jamie.yung286@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamieyung/purescript-selection-foldable.git"
+  },
+  "license": "BSD-3-Clause",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "purescript-prelude": "4.1.0",
+    "purescript-maybe": "4.0.0",
+    "purescript-foldable-traversable": "4.0.0",
+    "purescript-filterable": "3.0.1"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "4.0.0",
+    "purescript-spec": "3.0.0"
+  }
+}

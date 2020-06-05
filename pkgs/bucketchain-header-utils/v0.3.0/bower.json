@@ -1,0 +1,33 @@
+{
+  "name": "purescript-bucketchain-header-utils",
+  "license": "MIT",
+  "homepage": "https://github.com/Bucketchain/purescript-bucketchain-header-utils",
+  "authors": [
+    "Shinya Takahashi <s.takahashi313@gmail.com>"
+  ],
+  "description": "The HTTP header utilities of Bucketchain.",
+  "keywords": [
+    "purescript",
+    "webserver",
+    "header"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Bucketchain/purescript-bucketchain-header-utils.git"
+  },
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-bucketchain": "^0.3.0"
+  },
+  "devDependencies": {
+    "purescript-assert": "^4.0.0"
+  }
+}

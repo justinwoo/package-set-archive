@@ -1,0 +1,19 @@
+{
+  "name": "purescript-sjcl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athanclark/purescript-sjcl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/athanclark/purescript-sjcl/issues"
+  },
+  "homepage": "https://github.com/athanclark/purescript-sjcl#readme",
+  "dependencies": {
+    "sjcl": "git://github.com/athanclark/sjcl.git#e6ca43fbcc85689f9e6b212cc88b85a53295a459"
+  }
+}

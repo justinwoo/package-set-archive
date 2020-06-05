@@ -1,0 +1,28 @@
+{
+  "name": "purescript-read",
+  "version": "1.0.0",
+  "description": "class utilities for defining readable types (enums) in PureScript",
+  "authors": [
+    "TruQu <matthias.benkort@truqu.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/truqu/purescript-read",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/truqu/purescript-read.git"
+  },
+  "dependencies": {
+    "purescript-prelude": "^4.0.0",
+    "purescript-maybe": "^4.0.0",
+    "purescript-strings": "^4.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0"
+  }
+}

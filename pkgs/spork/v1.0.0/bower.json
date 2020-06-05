@@ -1,0 +1,44 @@
+{
+  "name": "purescript-spork",
+  "homepage": "https://github.com/natefaubion/purescript-spork",
+  "authors": [
+    "Nathan Faubion <nathan@n-son.com>"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/natefaubion/purescript-spork.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^4.0.0",
+    "purescript-console": "^4.0.0",
+    "purescript-tailrec": "^4.0.0",
+    "purescript-arrays": "^5.0.0",
+    "purescript-refs": "^4.1.0",
+    "purescript-foldable-traversable": "^4.0.0",
+    "purescript-maybe": "^4.0.0",
+    "purescript-aff": "^5.0.0",
+    "purescript-halogen-vdom": "^4.0.0",
+    "purescript-dom-indexed": "^6.0.0",
+    "purescript-unsafe-reference": "^3.0.0",
+    "purescript-web-dom": "^1.0.0",
+    "purescript-web-html": "^1.0.0",
+    "purescript-web-events": "^1.0.0",
+    "purescript-web-uievents": "^1.0.0",
+    "purescript-effect": "^2.0.0",
+    "purescript-foreign": "^5.0.0",
+    "purescript-ordered-collections": "^1.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0",
+    "purescript-simple-json": "^4.0.0",
+    "purescript-routing": "^8.0.0",
+    "purescript-web-storage": "^2.0.0"
+  }
+}

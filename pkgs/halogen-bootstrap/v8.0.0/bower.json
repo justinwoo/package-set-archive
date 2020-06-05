@@ -1,0 +1,22 @@
+{
+  "name": "purescript-halogen-bootstrap",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/slamdata/purescript-halogen-bootstrap.git"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-halogen": "^4.0.0"
+  },
+  "devDependencies": {
+    "bootstrap": "~3.3.7"
+  }
+}

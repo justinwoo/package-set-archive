@@ -1,0 +1,26 @@
+{
+  "name": "purescript-node-telegram-bot-api",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/justinwoo/purescript-node-telegram-bot-api.git"
+  },
+  "dependencies": {
+    "purescript-strings": "^4.0.0",
+    "purescript-foreign": "^5.0.0",
+    "purescript-aff": "^5.0.0",
+    "purescript-simple-json": "^4.0.0"
+  },
+  "devDependencies": {
+    "purescript-validation": "^4.0.0",
+    "purescript-node-process": "justinwoo/purescript-node-process#compiler/0.12",
+    "purescript-test-unit": "^14.0.0"
+  },
+  "version": "0.1.0"
+}

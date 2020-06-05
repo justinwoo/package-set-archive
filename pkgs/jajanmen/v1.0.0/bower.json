@@ -1,0 +1,24 @@
+{
+  "name": "purescript-jajanmen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/justinwoo/purescript-jajanmen.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^4.1.0",
+    "purescript-typelevel-prelude": "^4.0.0",
+    "purescript-node-sqlite3": "^6.0.0"
+  },
+  "devDependencies": {
+    "purescript-console": "^4.2.0",
+    "purescript-assert": "^4.1.0",
+    "purescript-simple-json": "^5.0.0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "purescript-svg-parser-halogen",
+  "description": "A library to inline SVG string into halogen views",
+  "keywords": [
+    "purescript",
+    "halogen",
+    "svg"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rnons/purescript-svg-parser-halogen.git"
+  },
+  "license": "BSD-3-Clause",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output",
+    "docs"
+  ],
+  "dependencies": {
+    "purescript-svg-parser": "^1.0.0",
+    "purescript-halogen": "^5.0.0-rc.7"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0"
+  }
+}

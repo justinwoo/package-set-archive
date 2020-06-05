@@ -1,0 +1,39 @@
+{
+  "name": "purescript-string-parsers",
+  "description": "A parsing library for parsing strings",
+  "keywords": [
+    "purescript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "tests",
+    "bower.json",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paf31/purescript-string-parsers.git"
+  },
+  "dependencies": {
+    "purescript-arrays": "^5.0.0",
+    "purescript-bifunctors": "^4.0.0",
+    "purescript-control": "^4.0.0",
+    "purescript-either": "^4.0.0",
+    "purescript-foldable-traversable": "^4.0.0",
+    "purescript-lists": "^5.0.0",
+    "purescript-maybe": "^4.0.0",
+    "purescript-prelude": "^4.0.0",
+    "purescript-strings": "^4.0.0",
+    "purescript-tailrec": "^4.0.0"
+  },
+  "devDependencies": {
+    "purescript-math": "^2.1.1",
+    "purescript-console": "^4.1.0",
+    "purescript-assert": "^4.0.0",
+    "purescript-psci-support": "^4.0.0"
+  }
+}

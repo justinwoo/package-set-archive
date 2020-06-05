@@ -1,0 +1,26 @@
+{
+  "name": "purescript-z85",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/athanclark/purescript-z85.git"
+  },
+  "dependencies": {
+    "purescript-prelude": "^4.1.0",
+    "purescript-arraybuffer": "^10.0.0",
+    "purescript-sized-vectors": "^5.0.0",
+    "purescript-numbers": "^7.0.0",
+    "purescript-stringutils": "^0.0.8"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0",
+    "purescript-quickcheck": "^6.1.0",
+    "purescript-assert": "^4.0.0"
+  }
+}

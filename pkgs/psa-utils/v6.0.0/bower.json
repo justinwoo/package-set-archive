@@ -1,0 +1,35 @@
+{
+  "name": "purescript-psa-utils",
+  "description": "Utility library for purescript-psa",
+  "authors": [
+    "Nathan Faubion"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^4.0.0",
+    "purescript-effect": "^2.0.0",
+    "purescript-argonaut-core": "^5.0.0",
+    "purescript-argonaut-codecs": "^6.0.2",
+    "purescript-maybe": "^4.0.0",
+    "purescript-tuples": "^5.0.0",
+    "purescript-arrays": "^5.0.0",
+    "purescript-strings": "^4.0.0",
+    "purescript-ordered-collections": "^1.0.0",
+    "purescript-foldable-traversable": "^4.0.0",
+    "purescript-either": "^4.0.0",
+    "purescript-ansi": "^5.0.0",
+    "purescript-node-path": "^3.0.0",
+    "purescript-control": "^4.0.0",
+    "purescript-console": "^4.0.0",
+    "purescript-unsafe-coerce": "^4.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0"
+  }
+}

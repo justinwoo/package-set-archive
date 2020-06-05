@@ -1,0 +1,32 @@
+{
+  "name": "purescript-array-views",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/klntsky/purescript-array-views.git"
+  },
+  "dependencies": {
+    "purescript-prelude": "^4.1.0",
+    "purescript-arrays": "^5.2.0",
+    "purescript-maybe": "^4.0.1",
+    "purescript-generics-rep": "^6.1.1",
+    "purescript-foldable-traversable": "^4.1.1",
+    "purescript-tuples": "^5.1.0",
+    "purescript-unfoldable": "^4.0.0",
+    "purescript-nonempty": "^5.0.0",
+    "purescript-profunctor": "^4.0.0",
+    "purescript-control": "^4.1.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0",
+    "purescript-benchotron": "^7.0.0",
+    "purescript-assert": "^4.0.0",
+    "purescript-quickcheck-laws": "^4.0.0"
+  }
+}

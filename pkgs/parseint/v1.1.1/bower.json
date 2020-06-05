@@ -1,0 +1,19 @@
+{
+  "name": "purescript-parseint",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-globals": "^4.0.0",
+    "purescript-integers": "^4.0.0",
+    "purescript-functions": "^4.0.0"
+  },
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/athanclark/purescript-parseint.git"
+  }
+}

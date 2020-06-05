@@ -1,0 +1,19 @@
+{
+  "name": "purescript-uuid",
+  "moduleType": ["node"],
+  "ignore": ["**/.*", "node_modules", "bower_components", "output"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spicydonuts/purescript-uuid.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "purescript-effect": "^2.0.0",
+    "purescript-maybe": "^4.0.1",
+    "purescript-foreign-generic": "^10.0.0"
+  },
+  "devDependencies": {
+    "purescript-console": "^4.1.0",
+    "purescript-spec": "^4.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "purescript-gomtang-basic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/justinwoo/purescript-gomtang-basic.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^4.0.0",
+    "purescript-console": "^4.1.0",
+    "purescript-record": "^1.0.0",
+    "purescript-web-html": "^1.0.0",
+    "purescript-effect": "^2.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "purescript-naporitan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinwoo/purescript-naporitan.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-record": "^2.0.1",
+    "purescript-typelevel-prelude": "^5.0.0"
+  },
+  "devDependencies": {
+    "purescript-console": "^4.2.0"
+  }
+}

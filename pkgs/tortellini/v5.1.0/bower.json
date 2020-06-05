@@ -1,0 +1,31 @@
+{
+  "name": "purescript-tortellini",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/justinwoo/purescript-tortellini.git"
+  },
+  "dependencies": {
+    "purescript-strings": "^4.0.0",
+    "purescript-typelevel-prelude": "^4.0.0",
+    "purescript-lists": "^5.0.0",
+    "purescript-record": "^2.0.0",
+    "purescript-string-parsers": "^5.0.0",
+    "purescript-transformers": "^4.1.0",
+    "purescript-prelude": "^4.1.0",
+    "purescript-numbers": "^6.0.0",
+    "purescript-integers": "^4.0.0",
+    "purescript-foreign-object": "^2.0.1",
+    "purescript-motsunabe": "^1.0.0"
+  },
+  "devDependencies": {
+    "purescript-assert": "^4.0.0",
+    "purescript-exceptions": "^4.0.0"
+  }
+}

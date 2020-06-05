@@ -1,0 +1,31 @@
+{
+  "name": "purescript-snabbdom",
+  "version": "0.2.3",
+  "description": "Purescript wrapper for snabbdom",
+  "main": "index.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output",
+    "index.js"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^4.0.0",
+    "purescript-ordered-collections": "^1.0.0",
+    "purescript-web-dom": "^1.0.0",
+    "purescript-web-html": "^1.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0",
+    "purescript-assert": "^4.0.0",
+    "purescript-test-unit": "^14.0.0",
+    "purescript-quickcheck": "^5.0.0",
+    "purescript-transformers": "^4.1.0"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LukaJCB/purescript-snabbdom.git"
+  }
+}

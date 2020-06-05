@@ -1,0 +1,23 @@
+{
+  "name": "purescript-folds",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-control": "^4.0.0",
+    "purescript-profunctor": "^4.0.0",
+    "purescript-ordered-collections": "^1.6.0"
+  },
+  "devDependencies": {
+    "purescript-console": "^4.0.0",
+    "purescript-psci-support": "^4.0.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paf31/purescript-folds.git"
+  }
+}

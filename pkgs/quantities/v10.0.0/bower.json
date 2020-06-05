@@ -1,0 +1,30 @@
+{
+  "name": "purescript-quantities",
+  "description": "Physical quantities and units",
+  "license": "MIT",
+  "homepage": "https://github.com/sharkdp/purescript-quantities",
+  "authors": [
+    "David Peter <mail@david-peter.de>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sharkdp/purescript-quantities.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-lists": "^5.4.0",
+    "purescript-foldable-traversable": "^4.1.0",
+    "purescript-numbers": "^7.0.0",
+    "purescript-pairs": "^7.0.0",
+    "purescript-decimals": "^5.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0",
+    "purescript-test-unit": "^15.0.0"
+  }
+}

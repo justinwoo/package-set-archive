@@ -1,0 +1,14 @@
+{
+  "name": "purs-cssom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/danieljharvey/purs-cssom",
+  "author": "Daniel Harvey <daniel.harvey@habito.com>",
+  "license": "MIT",
+  "scripts": {
+    "pscid:build": "spago build"
+  },
+  "dependencies": {
+    "purescript": "^0.13.2"
+  }
+}

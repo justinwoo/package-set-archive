@@ -1,0 +1,17 @@
+{
+  "name": "purescript-monad-unlift",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/athanclark/purescript-monad-unlift.git"
+  },
+  "dependencies": {
+    "purescript-monad-control": "^5.0.0"
+  }
+}

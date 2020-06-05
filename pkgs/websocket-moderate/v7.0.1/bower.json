@@ -1,0 +1,28 @@
+{
+  "name": "purescript-websocket-moderate",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-nullable": "^4.1.1",
+    "purescript-exceptions": "^4.0.0",
+    "purescript-monad-control": "^5.0.0",
+    "purescript-argonaut": "^6.0.0",
+    "purescript-generics-rep": "^6.1.1",
+    "purescript-foreign": "^5.0.0",
+    "purescript-web-file": "^2.2.0",
+    "purescript-arraybuffer": "^10.0.2",
+    "purescript-text-encoding": "^1.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/athanclark/purescript-websocket-moderate"
+  },
+  "license": "BSD-3-Clause"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "purescript-react-dom",
+  "description": "PureScript bindings for react-dom",
+  "main": "",
+  "keywords": [
+    "purescript",
+    "react"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "*",
+    "!src/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/purescript-contrib/purescript-react-dom.git"
+  },
+  "dependencies": {
+    "purescript-web-dom": "^2.0.0",
+    "purescript-react": ">= 6.0.0 < 8.0.0",
+    "purescript-effect": "^2.0.0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "purescript-data-algebrae",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^4.0.0",
+    "purescript-maybe": "^4.0.0",
+    "purescript-generics-rep": "^6.0.0",
+    "purescript-arrays": "^5.0.0",
+    "purescript-foreign-object": "^1.0.0",
+    "purescript-ordered-collections": "^1.0.0",
+    "purescript-spec": "^3.0.0",
+    "purescript-spec-quickcheck": "https://github.com/i-am-tom/purescript-spec-quickcheck.git#master"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/i-am-tom/purescript-data-algebrae.git"
+  }
+}

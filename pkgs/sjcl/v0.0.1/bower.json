@@ -1,0 +1,21 @@
+{
+  "name": "purescript-sjcl",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/athanclark/purescript-sjcl.git"
+  },
+  "dependencies": {
+    "purescript-arraybuffer-types": "^2.0.0",
+    "purescript-exceptions": "^4.0.0",
+    "purescript-nullable": "^4.1.0",
+    "purescript-tuples-native": "^2.0.0",
+    "purescript-sized-vectors": "^5.0.0"
+  }
+}

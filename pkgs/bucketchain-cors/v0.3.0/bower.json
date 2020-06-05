@@ -1,0 +1,35 @@
+{
+  "name": "purescript-bucketchain-cors",
+  "license": "MIT",
+  "homepage": "https://github.com/Bucketchain/purescript-bucketchain-cors",
+  "authors": [
+    "Shinya Takahashi <s.takahashi313@gmail.com>"
+  ],
+  "description": "A CORS middleware of Bucketchain.",
+  "keywords": [
+    "purescript",
+    "webserver",
+    "cors"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Bucketchain/purescript-bucketchain-cors.git"
+  },
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-bucketchain": "^0.3.0",
+    "purescript-bucketchain-header-utils": "^0.3.0",
+    "purescript-http-methods": "^4.0.2"
+  },
+  "devDependencies": {
+    "purescript-assert": "^4.0.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "purescript-node-sqlite3",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/justinwoo/purescript-node-sqlite3"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-aff": "^5.0.0",
+    "purescript-foreign": "^5.0.0"
+  },
+  "devDependencies": {
+    "purescript-test-unit": "justinwoo/purescript-test-unit#compiler/0.12",
+    "purescript-node-fs-aff": "justinwoo/purescript-node-fs-aff#compiler/0.12",
+    "purescript-simple-json": "#compiler/0.12"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "purescript-suggest",
+  "version": "2.3.0",
+  "description": "Apply PureScript compiler suggestions to fix warnings",
+  "bin": {
+    "ps-suggest": "cli/index.js"
+  },
+  "scripts": {
+    "build": "pulp build -I cli/src",
+    "preversion": "npm test",
+    "prepublish": "bower install && npm run build",
+    "test": "pulp test"
+  },
+  "keywords": [
+    "purescript"
+  ],
+  "author": "Nicholas Wolverson",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/nwolverson/purescript-suggest"
+  },
+  "bugs": {
+    "url": "https://github.com/nwolverson/purescript-suggest/issues"
+  }
+}

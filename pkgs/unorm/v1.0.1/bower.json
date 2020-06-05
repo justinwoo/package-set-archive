@@ -1,0 +1,16 @@
+{
+  "name": "purescript-unorm",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "license": "BSD-3-Clause",
+  "dependencies": {
+  },
+  "repository": {
+    "url": "https://github.com/athanclark/purescript-unorm.git",
+    "type": "git"
+  }
+}

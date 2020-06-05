@@ -1,0 +1,35 @@
+{
+  "name": "purescript-mysql",
+  "license": "MIT",
+  "homepage": "https://github.com/oreshinya/purescript-mysql",
+  "authors": [
+    "Shinya Takahashi <s.takahashi313@gmail.com>"
+  ],
+  "description": "Bindings mysql for PureScript",
+  "keywords": [
+    "purescript",
+    "mysql"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oreshinya/purescript-mysql"
+  },
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-js-date": "^6.0.0",
+    "purescript-aff": "^5.0.2",
+    "purescript-simple-json": "^7.0.0"
+  },
+  "devDependencies": {
+    "purescript-test-unit": "^15.0.0",
+    "purescript-uuid": "^6.0.0"
+  }
+}

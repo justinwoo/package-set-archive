@@ -1,0 +1,28 @@
+{
+  "name": "purescript-monad-control",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "4.x",
+    "purescript-console": "4.x",
+    "purescript-identity": "4.x",
+    "purescript-transformers": "4.x",
+    "purescript-functors": "3.x",
+    "purescript-lists": "5.x",
+    "purescript-arrays": "5.x",
+    "purescript-freet": "4.x",
+    "purescript-aff": "5.x"
+  },
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "purescript-psci-support": "4.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/athanclark/purescript-monad-control.git"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "purescript-bucketchain-logger",
+  "license": "MIT",
+  "homepage": "https://github.com/Bucketchain/purescript-bucketchain-logger",
+  "authors": [
+    "Shinya Takahashi <s.takahashi313@gmail.com>"
+  ],
+  "description": "Logger middlewares of Bucketchain.",
+  "keywords": [
+    "purescript",
+    "webserver",
+    "logger"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Bucketchain/purescript-bucketchain-logger.git"
+  },
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-bucketchain": "^0.3.0",
+    "purescript-js-date": "^6.0.0",
+    "purescript-node-process": "^7.0.0"
+  },
+  "resolutions": {
+    "purescript-foreign-object": "^2.0.1",
+    "purescript-typelevel-prelude": "^4.0.0"
+  }
+}

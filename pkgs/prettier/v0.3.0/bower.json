@@ -1,0 +1,25 @@
+{
+  "name": "purescript-prettier",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^4.0.0",
+    "purescript-maybe": "^4.0.0"
+  },
+  "devDependencies": {
+    "purescript-spec": "justinwoo/purescript-spec#compiler/0.12"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gcanti/purescript-prettier.git"
+  },
+  "keywords": [
+    "PureScript",
+    "prettier"
+  ]
+}

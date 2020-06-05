@@ -1,0 +1,17 @@
+{
+  "name": "purescript-inflection",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-functions": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/athanclark/purescript-inflection.git"
+  },
+  "license": "BSD-3-Clause"
+}

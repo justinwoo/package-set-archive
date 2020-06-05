@@ -1,0 +1,37 @@
+{
+  "name": "purescript-run-streaming",
+  "homepage": "https://github.com/natefaubion/purescript-run-streaming",
+  "authors": [
+    "Nathan Faubion <nathan@n-son.com>"
+  ],
+  "description": "Streaming bidirectional pipes for PureScript",
+  "license": "MIT",
+  "keywords": [
+    "purescript",
+    "extensible",
+    "effects",
+    "streaming",
+    "pipes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/natefaubion/purescript-run-streaming.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output",
+    "test"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^4.1.0",
+    "purescript-run": "^2.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0",
+    "purescript-assert": "^4.0.0",
+    "purescript-console": "^4.1.0",
+    "purescript-debug": "^4.0.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "purescript-flow-id",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/i-am-the-slime/purescript-flow-id.git"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^4.1.1",
+    "purescript-simple-json": "^5.1.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0"
+  }
+}

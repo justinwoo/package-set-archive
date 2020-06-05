@@ -1,0 +1,23 @@
+{
+  "name": "purescript-record-format",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kcsongor/purescript-record-format.git"
+  },
+  "dependencies": {
+    "purescript-strings": "^4.0.0",
+    "purescript-record": "^2.0.0",
+    "purescript-typelevel-prelude": "^5.0.0"
+  },
+  "devDependencies": {
+    "purescript-assert": "^4.0.0",
+    "purescript-psci-support": "^4.0.0"
+  }
+}

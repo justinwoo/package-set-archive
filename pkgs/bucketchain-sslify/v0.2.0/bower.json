@@ -1,0 +1,33 @@
+{
+  "name": "purescript-bucketchain-sslify",
+  "license": "MIT",
+  "homepage": "https://github.com/Bucketchain/purescript-bucketchain-sslify",
+  "authors": [
+    "Shinya Takahashi <s.takahashi313@gmail.com>"
+  ],
+  "description": "A force https middleware of Bucketchain.",
+  "keywords": [
+    "purescript",
+    "webserver",
+    "https"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Bucketchain/purescript-bucketchain-sslify.git"
+  },
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-bucketchain": "^0.3.0"
+  },
+  "devDependencies": {
+    "purescript-assert": "^4.0.0"
+  }
+}

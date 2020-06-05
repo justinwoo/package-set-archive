@@ -1,0 +1,28 @@
+{
+    "name": "purescript-redis-hotqueue",
+    "license": [
+        "BSD-3-Clause"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/paluh/purescript-redis-hotqueue.git"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "output"
+    ],
+    "dependencies": {
+        "purescript-effect": "^v2.0.1",
+        "purescript-prelude": "^v4.1.1",
+        "purescript-redis-client": "^v1.0.1",
+        "purescript-simple-json": "^v7.0.0"
+    },
+    "devDependencies": {
+        "purescript-debug": "^v4.0.0",
+        "purescript-psci-support": "^v4.0.0",
+        "purescript-sunde": "^v2.0.0",
+        "purescript-test-unit": "^15.0.0"
+  }
+}

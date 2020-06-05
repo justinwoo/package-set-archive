@@ -1,0 +1,17 @@
+{
+  "name": "example",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-string-parsers": "^5.0.0",
+    "purescript-halogen": "^5.0.0-rc.4"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0"
+  }
+}

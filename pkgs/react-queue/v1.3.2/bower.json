@@ -1,0 +1,20 @@
+{
+  "name": "purescript-react-queue",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/athanclark/purescript-react-queue.git"
+  },
+  "dependencies": {
+    "purescript-queue": "^8.0.1",
+    "purescript-react": "^8.0.0",
+    "purescript-exceptions": "^4.0.0",
+    "purescript-zeta": "^6.0.0"
+  }
+}

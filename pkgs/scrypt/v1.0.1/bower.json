@@ -1,0 +1,19 @@
+{
+  "name": "purescript-scrypt",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "example",
+    "output"
+  ],
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "purescript-arraybuffer-types": "^2.0.0",
+    "purescript-aff": "^5.0.2"
+  },
+  "repository": {
+    "url": "https://github.com/athanclark/purescript-scrypt.git",
+    "type": "git"
+  }
+}

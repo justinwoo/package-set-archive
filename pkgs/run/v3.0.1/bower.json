@@ -1,0 +1,46 @@
+{
+  "name": "purescript-run",
+  "homepage": "https://github.com/natefaubion/purescript-run",
+  "authors": [
+    "Nathan Faubion <nathan@n-son.com>"
+  ],
+  "description": "An extensible-effects implementation for PureScript",
+  "license": "MIT",
+  "keywords": [
+    "purescript",
+    "extensible",
+    "effects"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/natefaubion/purescript-run.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output",
+    "test"
+  ],
+  "dependencies": {
+    "purescript-aff": "^5.0.0",
+    "purescript-either": "^4.0.0",
+    "purescript-free": "^5.0.0",
+    "purescript-maybe": "^4.0.0",
+    "purescript-newtype": "^3.0.0",
+    "purescript-prelude": "^4.0.0",
+    "purescript-tailrec": "^4.0.0",
+    "purescript-tuples": "^5.0.0",
+    "purescript-type-equality": "^3.0.0",
+    "purescript-unsafe-coerce": "^4.0.0",
+    "purescript-variant": "^6.0.1",
+    "purescript-profunctor": "^4.0.0",
+    "purescript-effect": "^2.0.0"
+  },
+  "devDependencies": {
+    "purescript-control": "^4.0.0",
+    "purescript-minibench": "^2.0.0",
+    "purescript-identity": "^4.0.0",
+    "purescript-console": "^4.1.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "purescript-flare",
+  "authors": [
+    "David Peter <mail@david-peter.de>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "output",
+    "test",
+    "html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sharkdp/purescript-flare.git"
+  },
+  "dependencies": {
+    "purescript-canvas": "^4.0.0",
+    "purescript-datetime": "^4.0.0",
+    "purescript-drawing": "^4.0.0",
+    "purescript-foldable-traversable": "^4.0.0",
+    "purescript-nonempty": "^5.0.0",
+    "purescript-signal": "^10.1.0",
+    "purescript-smolder": "^12.0.0",
+    "purescript-tuples": "^5.0.0",
+    "purescript-web-dom": "^1.0.0"
+  }
+}

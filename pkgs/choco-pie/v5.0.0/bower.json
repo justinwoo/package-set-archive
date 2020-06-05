@@ -1,0 +1,23 @@
+{
+  "name": "purescript-choco-pie",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/justinwoo/purescript-chocopie.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^4.1.1",
+    "purescript-typelevel-prelude": "^5.0.0",
+    "purescript-record": "^2.0.1",
+    "purescript-event": "^1.2.4"
+  },
+  "devDependencies": {
+    "purescript-assert": "^4.1.0"
+  }
+}

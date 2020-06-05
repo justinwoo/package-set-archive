@@ -1,0 +1,27 @@
+VERSION ?= $(shell git rev-parse --short HEAD)
+
+all: html examples docs-examples
+
+.PHONY: html
+html: docs/index.html
+
+docs/index.html: docs/src/index.md docs/src/template.html docs/src/*.purs
+	pandoc \
+		$< \
+		-t html5 \
+		--standalone \
+		-S \
+		--filter pandoc-include-code \
+		--toc \
+		"--metadata=subtitle:Build servers in Hyper using Trout" \
+		"--metadata=version:$(VERSION)" \
+		--template=docs/src/template.html \
+		-o $@
+
+.PHONY: examples
+examples: bower_components
+	spago build -p examples/**/*.purs
+
+.PHONY: docs-examples
+docs-examples: bower_components
+	spago build -p docs/src/**/*.purs

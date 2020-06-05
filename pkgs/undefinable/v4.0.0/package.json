@@ -1,0 +1,10 @@
+{
+  "name": "purescript-undefinable",
+  "version": "4.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "purs:compile": "purs compile 'src/**/*.purs' 'test/**/*.purs' 'bower_components/purescript-*/src/**/*.purs' 2>&1",
+    "test": "node -e 'require(\"./output/Test.Main\").main()'"
+  }
+}

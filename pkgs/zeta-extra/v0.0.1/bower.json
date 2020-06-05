@@ -1,0 +1,22 @@
+{
+  "name": "purescript-zeta-extra",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/athanclark/purescript-zeta-extra.git"
+  },
+  "dependencies": {
+    "purescript-zeta": "^6.0.0",
+    "purescript-web-html": "^2.3.0",
+    "purescript-js-timers": "^4.0.1"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0"
+  }
+}

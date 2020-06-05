@@ -1,0 +1,13 @@
+{
+  "name": "purescript-quotient",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rightfold/purescript-quotient.git"
+  },
+  "dependencies": {
+    "purescript-prelude": "^4.0.0",
+    "purescript-proxy": "^3.0.0",
+    "purescript-quickcheck": "5.x - 6.x"
+  }
+}

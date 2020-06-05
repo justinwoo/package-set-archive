@@ -1,0 +1,16 @@
+{
+  "name": "purescript-row-extra",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/athanclark/purescript-row-extra.git"
+  },
+  "license": "BSD-3-Clause"
+}

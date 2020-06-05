@@ -1,0 +1,33 @@
+{
+  "name": "purescript-aff-bus",
+  "description": "Many-to-many broadcasting",
+  "homepage": "https://github.com/slamdata/purescript-aff-bus",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/slamdata/purescript-aff-bus.git"
+  },
+  "authors": [
+    "Nathan Faubion <nathan@n-son.com>"
+  ],
+  "keywords": [
+    "purescript",
+    "aff",
+    "bus"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^4.0.0",
+    "purescript-avar": "^3.0.0"
+  },
+  "devDependencies": {
+    "purescript-console": "^4.0.0",
+    "purescript-refs": "^4.0.0"
+  }
+}

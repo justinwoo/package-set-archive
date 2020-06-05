@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "clean": "rimraf output && rimraf .spago",
+    "build": "spago build",
+    "example": "spago bundle-app -m Test.Main -t html/index.js"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "purescript": "^0.13.6",
+    "rimraf": "^2.6.3",
+    "spago": "^0.15.2"
+  }
+}
