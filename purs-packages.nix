@@ -253,6 +253,15 @@
       sha256 = "1r24mpcj0wdc72l8jwr8cm1xv08zz51jb6d0yxpqfgfyszzwdwx9";
     };
   };
+  "bonjiri" = {
+    name = "bonjiri";
+    version = "v0.7.0";
+    src = pkgs.fetchgit {
+      url = "https://github.com/justinwoo/purescript-bonjiri.git";
+      rev = "v0.7.0";
+      sha256 = "08jr5vz6d6l6mflvxnb8fhi84lwyps10lmygcsb3gdvmysdq8jhs";
+    };
+  };
   "bower-json" = {
     name = "bower-json";
     version = "v1.0.0";
@@ -404,6 +413,15 @@
       url = "https://github.com/natefaubion/purescript-call-by-name.git";
       rev = "v2.0.0";
       sha256 = "0d2y49sngr2kivhyngjn8x47h23lri48jvriwjyj414sxzayxpdm";
+    };
+  };
+  "calpis" = {
+    name = "calpis";
+    version = "v0.1.0";
+    src = pkgs.fetchgit {
+      url = "https://github.com/justinwoo/purescript-calpis.git";
+      rev = "v0.1.0";
+      sha256 = "0npivy7cvg6g58x2xgsg1zr5hagpvd1acrn9bbvr2gi4vjy7x4g7";
     };
   };
   "canvas" = {
